@@ -3,7 +3,7 @@ import sys
 import os
 # sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from  calculations import calculate_total_daily_calories
+from  Utils.calculations import calculate_total_daily_calories
 
 class TestCalculateTotalDailyCalories(unittest.TestCase):
 
